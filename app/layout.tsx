@@ -32,7 +32,11 @@ export default function RootLayout({
 
         <footer className={`fixed bottom-0 left-1/2 transform -translate-x-1/2 z-20 w-full p-4 border-t border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600 ${geistSans.variable}`}>
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400 text-center w-full">
-            <p>Copyright © 2024 Mohammed Ibrahim. All Rights Reserved.</p>
+            <p>
+              Copyright © 2024 
+              <a href="https://github.com/midoriya-2-0" className="text-gray-500 hover:underline"> Mohammed Ibrahim
+              </a>. All Rights Reserved.
+            </p>
           </span>
         </footer>
       </body>
