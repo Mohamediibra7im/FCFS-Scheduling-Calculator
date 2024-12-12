@@ -29,6 +29,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <footer>
+          <p>© 2023 FCFS Scheduling Calculator. All rights reserved.</p>
+        </footer>
       </body>
     </html>
   );
