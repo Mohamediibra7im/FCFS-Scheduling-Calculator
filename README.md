@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FCFS Scheduling Calculator
 
-## Getting Started
+The FCFS Scheduling Calculator is a web-based application designed to simulate and analyze First-Come, First-Served (FCFS) process scheduling in operating systems. This tool provides a clear visualization of process execution based on their arrival times, making it an excellent resource for learning and experimentation.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Process Simulation**: Visualize the execution order of processes based on FCFS scheduling.
+- **Interactive Input**: Add, edit, and remove processes with ease.
+- **Gantt Chart Visualization**: View a graphical representation of process execution timelines.
+- **Performance Metrics**: Calculate and display key metrics such as average waiting time and turnaround time.
+- **User-Friendly Interface**: Intuitive design for seamless navigation and interaction.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Python**: Implements the core scheduling algorithm and backend logic.
+- **Flask**: Powers the web application framework for seamless interaction.
+- **HTML/CSS**: Structures and styles the user interface for an intuitive experience.
+- **JavaScript**: Enhances interactivity and dynamic functionality.
+- **Bootstrap**: Delivers responsive and modern UI components.
+- **SQLite**: Manages persistent storage of process data efficiently.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Contributing
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Contributions are welcome! Feel free to fork the repository, make changes, and submit a pull request. Ensure your code adheres to the project's coding standards and includes appropriate documentation.
