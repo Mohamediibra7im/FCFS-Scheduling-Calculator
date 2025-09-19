@@ -18,7 +18,3 @@ The FCFS Scheduling Calculator is a web-based application designed to simulate a
 - **JavaScript**: Enhances interactivity and dynamic functionality.
 - **Bootstrap**: Delivers responsive and modern UI components.
 - **SQLite**: Manages persistent storage of process data efficiently.
-
-## Contributing
-
-Contributions are welcome! Feel free to fork the repository, make changes, and submit a pull request. Ensure your code adheres to the project's coding standards and includes appropriate documentation.
