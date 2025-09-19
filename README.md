@@ -1,20 +1,58 @@
 # FCFS Scheduling Calculator
 
-The FCFS Scheduling Calculator is a web-based application designed to simulate and analyze First-Come, First-Served (FCFS) process scheduling in operating systems. This tool provides a clear visualization of process execution based on their arrival times, making it an excellent resource for learning and experimentation.
+![Next.js](https://img.shields.io/badge/Next.js-14.2.16-blue?logo=nextdotjs)
+![React](https://img.shields.io/badge/React-18-blue?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.4.1-blue?logo=tailwindcss)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
-## Features
+An interactive web application to simulate and analyze First-Come, First-Served (FCFS) process scheduling in operating systems. Visualize process execution order, calculate performance metrics, and experiment with scheduling scenarios in a modern UI.
 
-- **Process Simulation**: Visualize the execution order of processes based on FCFS scheduling.
-- **Interactive Input**: Add, edit, and remove processes with ease.
-- **Gantt Chart Visualization**: View a graphical representation of process execution timelines.
-- **Performance Metrics**: Calculate and display key metrics such as average waiting time and turnaround time.
-- **User-Friendly Interface**: Intuitive design for seamless navigation and interaction.
+## Features ✨
 
-## Technologies Used
+- 📝 **Process Simulation**: Add, edit, and remove processes to see how FCFS scheduling works.
+- 📊 **Gantt Chart Visualization**: View a graphical timeline of process execution.
+- ⏱️ **Performance Metrics**: Instantly calculate average waiting time and turnaround time.
+- 🎨 **Responsive UI**: Built with Tailwind CSS for a clean, modern look.
 
-- **Python**: Implements the core scheduling algorithm and backend logic.
-- **Flask**: Powers the web application framework for seamless interaction.
-- **HTML/CSS**: Structures and styles the user interface for an intuitive experience.
-- **JavaScript**: Enhances interactivity and dynamic functionality.
-- **Bootstrap**: Delivers responsive and modern UI components.
-- **SQLite**: Manages persistent storage of process data efficiently.
+## Technologies Used 🛠️
+
+- ⚡ **Next.js**: React framework for fast, scalable web apps
+- ⚛️ **React**: UI library for building interactive interfaces
+- 🟦 **TypeScript**: Type-safe development
+- 💨 **Tailwind CSS**: Utility-first CSS for rapid styling
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or newer recommended)
+- npm or yarn
+
+### Installation
+
+```bash
+git clone https://github.com/Mohamediibra7im/FCFS-Scheduling-Calculator.git
+cd FCFS-Scheduling-Calculator
+npm install
+```
+
+### Running Locally
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Usage
+
+1. Enter arrival and burst times for each process.
+2. Add processes to the table.
+3. View the Gantt chart and performance metrics.
+4. Experiment by editing or removing processes.
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests for improvements or bug fixes.
